@@ -1,0 +1,13 @@
+{
+    "name": "max/easy-print",
+    "description": "a simple library for print",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max-Fang",
+            "email": "812234333@qq.com"
+        }
+    ],
+    "require": {}
+}
