@@ -5,9 +5,17 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Max-Fang",
-            "email": "812234333@qq.com"
+            "name": "maxfang",
+            "email": "maxfang007@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Maxfang\\EasyPrint\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
 }
