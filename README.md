@@ -12,12 +12,15 @@ $ composer require maxfang/easy-print
 
 ```php
 
+# 使用 echo 简单打印
 $str = 'hello world';
 e($str);
 
+# 使用 echo 简单打印，并调用 die 终止
 $str = 'hello world';
 ed($str);
 
+# 使用格式化输出打印，便于浏览器中查看
 $data = [
     'code' => '200',
     'msg' => 'success',
@@ -28,6 +31,7 @@ $data = [
 ];
 p($data);
 
+# 使用格式化输出打印，便于浏览器中查看，并调用 die 终止
 $data = [
     'code' => '200',
     'msg' => 'success',
